@@ -44,7 +44,7 @@ P = 플랫폼(정사각형)
 S = 별(하나 이상 필요)
 J = 점프강화
 D = 일회용
-M = 가시(미구현)
+M = 가시
 '''
 
 mapGrid = [
@@ -483,3 +483,4 @@ while running:
                     scene = "lobby"
     pygame.display.update()
     clock.tick(120)
+
